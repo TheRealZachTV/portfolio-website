@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Full Stack Dev</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="page-header">
+        <img src="/full stack dev/img/test.png" alt="logo" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="about">
+        <h1>Contact Info</h1>
+        CareerFoundry GmbH<br>
+        Köpenicker Str. 126<br>
+        10179 Berlin<br>
+        Deutschland<br>
+        <br>
+        Tel <a href="tel:+491234567">+49 1234567</a><br>
+        Skype <a href="skype:hello.careerfoundry"> hello.careerfoundry</a><br>
+        <a href="mailto:office@careerfoundry.com">office@careerfoundry.com</a><br>
+        <br>
+        <form class="about" action="mailto:zachwpa@gmail.com" method="post" enctype="text/plain">
+            <table class="about">
+                <tr>
+                    <td><label for="name"><strong>Your Name:</strong></label><br></td>
+                    <td><input type="text" id="name" name="name"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="email"><strong>Your Email:</strong></label><br></td>
+                    <td><input type="email" required id="email" name="email"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="message"><strong>Your Message</strong></label></td>
+                </tr>
+            </table>
+            <textarea name="message" rows="10" cols="35" required maxlength="240">Type Your msg Here!</textarea><br>
+            <input type="submit" value="Send message">
+        </form>
+    </main>
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <img class="find_me" src="/full stack dev/img/github-logo.svg" alt="Github">
+            <img class="find_me" src="/full stack dev/img/twitter-logo.svg" alt="Twitter">
+            <img class="find_me" src="/full stack dev/img/linkedin-logo.svg" alt="LinkedIn">
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
