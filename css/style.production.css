@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    color: #c4f5e886
+    color: #000000
 }
 
 a:visited {
@@ -175,7 +175,6 @@ button:focus {
 }
 
 .about {
-    min-width: 500px;
     text-align: center;
     margin: 0 auto;
     font-weight: bold;
