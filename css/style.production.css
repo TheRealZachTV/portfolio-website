@@ -1,14 +1,10 @@
-:root {
-    --primary-color: #c4f5e886;
-    --secondary-color: #2C3333;
-    --button-text: white;
-    --button-active: lightblue;
-    --a-vistied: #05676e;
-    --a-active: #489c79;
-    --navigation-list: #2b2b2b;
-    --navigation-list-li: whitesmoke;
-    --grid-item: lightgray;
-}
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -165,6 +161,7 @@ button:focus {
 }
 
 .grid {
+    display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -195,7 +192,7 @@ button:focus {
 }
 
 .svg-about {
-    max-width: 750px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
