@@ -14,6 +14,11 @@
     box-sizing: border-box;
 }
 
+.logo {
+    height: 46px;
+    background-color: var(--secondary-color);
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
